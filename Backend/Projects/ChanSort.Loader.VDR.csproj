@@ -1,0 +1,4 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup><UpstreamDir>../Upstream/ChanSort.Loader.VDR</UpstreamDir><AssemblyName>ChanSort.Loader.VDR</AssemblyName><RootNamespace>ChanSort.Loader.VDR</RootNamespace></PropertyGroup>
+  <Import Project="Loader.Common.props" />
+</Project>

@@ -1,0 +1,4 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup><UpstreamDir>../Upstream/ChanSort.Loader.VisionEdge4K</UpstreamDir><AssemblyName>ChanSort.Loader.VisionEdge4K</AssemblyName><RootNamespace>ChanSort.Loader.VisionEdge4K</RootNamespace></PropertyGroup>
+  <Import Project="Loader.Common.props" />
+</Project>

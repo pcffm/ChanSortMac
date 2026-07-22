@@ -1,0 +1,4 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup><UpstreamDir>../Upstream/ChanSort.Loader.MediaTek</UpstreamDir><AssemblyName>ChanSort.Loader.MediaTek</AssemblyName><RootNamespace>ChanSort.Loader.MediaTek</RootNamespace></PropertyGroup>
+  <Import Project="Loader.Common.props" />
+</Project>

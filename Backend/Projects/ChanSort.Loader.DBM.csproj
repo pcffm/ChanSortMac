@@ -1,0 +1,4 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup><UpstreamDir>../Upstream/ChanSort.Loader.DBM</UpstreamDir><AssemblyName>ChanSort.Loader.DBM</AssemblyName><RootNamespace>ChanSort.Loader.DBM</RootNamespace></PropertyGroup>
+  <Import Project="Loader.Common.props" />
+</Project>

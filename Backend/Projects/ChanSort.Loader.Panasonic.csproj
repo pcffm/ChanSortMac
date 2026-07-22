@@ -1,0 +1,4 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup><UpstreamDir>../Upstream/ChanSort.Loader.Panasonic</UpstreamDir><AssemblyName>ChanSort.Loader.Panasonic</AssemblyName><RootNamespace>ChanSort.Loader.Panasonic</RootNamespace></PropertyGroup>
+  <Import Project="Loader.Common.props" />
+</Project>

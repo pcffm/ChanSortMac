@@ -1,0 +1,10 @@
+#EXTM3U
+#PLAYLIST:Demo-Senderliste
+#EXTINF:-1 tvg-id="daserste.de" group-title="Öffentlich-rechtlich",1. Das Erste HD
+https://example.invalid/live/daserste
+#EXTINF:-1 tvg-id="zdf.de" group-title="Öffentlich-rechtlich",2. ZDF HD
+https://example.invalid/live/zdf
+#EXTINF:-1 tvg-id="arte.de" group-title="Kultur",3. arte HD
+https://example.invalid/live/arte
+#EXTINF:-1 tvg-id="phoenix.de" group-title="Information",4. phoenix
+https://example.invalid/live/phoenix

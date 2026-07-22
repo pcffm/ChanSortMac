@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <!-- Original ChanSort © Horst Beham and contributors; macOS integration © 2026 Thomas Meroth. SPDX-License-Identifier: GPL-3.0-only -->
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>disable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <EnableDefaultCompileItems>false</EnableDefaultCompileItems>
+    <GenerateAssemblyInfo>true</GenerateAssemblyInfo>
+    <AssemblyName>ChanSort.Api</AssemblyName>
+    <RootNamespace>ChanSort.Api</RootNamespace>
+    <UpstreamDir>../Upstream/ChanSort.Api</UpstreamDir>
+    <Version>0.4.0</Version>
+    <Authors>Horst Beham; ChanSort contributors; macOS build integration by Thomas Meroth</Authors>
+    <Company>Meroth IT-Service</Company>
+    <Copyright>Original ChanSort components © Horst Beham and contributors; macOS integration © 2026 Thomas Meroth</Copyright>
+    <Description>GPLv3 ChanSort API compiled for the ChanSort Mac backend.</Description>
+    <PackageLicenseExpression>GPL-3.0-only</PackageLicenseExpression>
+    <RepositoryUrl>https://github.com/PredatH0r/ChanSort</RepositoryUrl>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(UpstreamDir)/**/*.cs"
+             Exclude="$(UpstreamDir)/Properties/AssemblyInfo.cs;$(UpstreamDir)/Utils/ChannelMappingBase.cs;$(UpstreamDir)/Utils/FileAssociation.cs" />
+    <EmbeddedResource Include="$(UpstreamDir)/**/*.resx" />
+  </ItemGroup>
+</Project>

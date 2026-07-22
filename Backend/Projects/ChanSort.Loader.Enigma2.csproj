@@ -1,0 +1,4 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup><UpstreamDir>../Upstream/ChanSort.Loader.Enigma2</UpstreamDir><AssemblyName>ChanSort.Loader.Enigma2</AssemblyName><RootNamespace>ChanSort.Loader.Enigma2</RootNamespace></PropertyGroup>
+  <Import Project="Loader.Common.props" />
+</Project>

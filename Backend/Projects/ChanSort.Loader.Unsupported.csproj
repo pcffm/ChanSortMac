@@ -1,0 +1,4 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup><UpstreamDir>../Upstream/ChanSort.Loader.Unsupported</UpstreamDir><AssemblyName>ChanSort.Loader.Unsupported</AssemblyName><RootNamespace>ChanSort.Loader.Unsupported</RootNamespace></PropertyGroup>
+  <Import Project="Loader.Common.props" />
+</Project>

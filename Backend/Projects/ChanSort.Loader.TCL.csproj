@@ -1,0 +1,4 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup><UpstreamDir>../Upstream/ChanSort.Loader.TCL</UpstreamDir><AssemblyName>ChanSort.Loader.TCL</AssemblyName><RootNamespace>ChanSort.Loader.TCL</RootNamespace></PropertyGroup>
+  <Import Project="Loader.Common.props" />
+</Project>

@@ -1,0 +1,4 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup><UpstreamDir>../Upstream/ChanSort.Loader.TechniSat</UpstreamDir><AssemblyName>ChanSort.Loader.TechniSat</AssemblyName><RootNamespace>ChanSort.Loader.TechniSat</RootNamespace></PropertyGroup>
+  <Import Project="Loader.Common.props" />
+</Project>

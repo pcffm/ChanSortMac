@@ -1,0 +1,4 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup><UpstreamDir>../Upstream/ChanSort.Loader.Amdb</UpstreamDir><AssemblyName>ChanSort.Loader.Amdb</AssemblyName><RootNamespace>ChanSort.Loader.Amdb</RootNamespace></PropertyGroup>
+  <Import Project="Loader.Common.props" />
+</Project>

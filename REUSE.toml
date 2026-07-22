@@ -1,0 +1,25 @@
+version = 1
+
+[[annotations]]
+path = ["Backend/Upstream/**"]
+precedence = "aggregate"
+SPDX-FileCopyrightText = "Horst Beham and the ChanSort contributors"
+SPDX-License-Identifier = "GPL-3.0-only"
+
+[[annotations]]
+path = ["Resources/AppIcon.png", "Samples/**"]
+precedence = "aggregate"
+SPDX-FileCopyrightText = "2026 Thomas Meroth, Meroth IT-Service"
+SPDX-License-Identifier = "GPL-3.0-only"
+
+[[annotations]]
+path = ["Backend/Projects/*.csproj", "Resources/*.plist", "Resources/*.entitlements"]
+precedence = "aggregate"
+SPDX-FileCopyrightText = "2026 Thomas Meroth, Meroth IT-Service; original compiled components Horst Beham and ChanSort contributors"
+SPDX-License-Identifier = "GPL-3.0-only"
+
+[[annotations]]
+path = ["THIRD_PARTY/**"]
+precedence = "aggregate"
+SPDX-FileCopyrightText = "respective third-party rights holders"
+SPDX-License-Identifier = "LicenseRef-ThirdParty"

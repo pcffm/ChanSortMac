@@ -1,0 +1,8 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <UpstreamDir>../Upstream/ChanSort.Loader.Philips</UpstreamDir><AssemblyName>ChanSort.Loader.Philips</AssemblyName><RootNamespace>ChanSort.Loader.Philips</RootNamespace>
+    <ExtraCompileExclude>$(UpstreamDir)/DllClient.cs</ExtraCompileExclude>
+  </PropertyGroup>
+  <Import Project="Loader.Common.props" />
+  <ItemGroup><ProjectReference Include="ChanSort.Loader.MediaTek.csproj" /></ItemGroup>
+</Project>

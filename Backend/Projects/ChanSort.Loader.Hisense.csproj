@@ -1,0 +1,4 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup><UpstreamDir>../Upstream/ChanSort.Loader.Hisense</UpstreamDir><AssemblyName>ChanSort.Loader.Hisense</AssemblyName><RootNamespace>ChanSort.Loader.Hisense</RootNamespace></PropertyGroup>
+  <Import Project="Loader.Common.props" />
+</Project>

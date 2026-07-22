@@ -1,0 +1,7 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <UpstreamDir>../Upstream/ChanSort.Loader.LG</UpstreamDir><AssemblyName>ChanSort.Loader.LG</AssemblyName><RootNamespace>ChanSort.Loader.LG</RootNamespace>
+    <ExtraCompileExclude>$(UpstreamDir)/Binary/TllFileSerializer.sql.cs</ExtraCompileExclude>
+  </PropertyGroup>
+  <Import Project="Loader.Common.props" />
+</Project>

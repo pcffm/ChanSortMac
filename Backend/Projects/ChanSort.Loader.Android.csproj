@@ -1,0 +1,4 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup><UpstreamDir>../Upstream/ChanSort.Loader.Android</UpstreamDir><AssemblyName>ChanSort.Loader.Android</AssemblyName><RootNamespace>ChanSort.Loader.Android</RootNamespace></PropertyGroup>
+  <Import Project="Loader.Common.props" />
+</Project>

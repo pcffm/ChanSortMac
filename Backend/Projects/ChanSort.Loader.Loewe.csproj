@@ -1,0 +1,4 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup><UpstreamDir>../Upstream/ChanSort.Loader.Loewe</UpstreamDir><AssemblyName>ChanSort.Loader.Loewe</AssemblyName><RootNamespace>ChanSort.Loader.Loewe</RootNamespace></PropertyGroup>
+  <Import Project="Loader.Common.props" />
+</Project>

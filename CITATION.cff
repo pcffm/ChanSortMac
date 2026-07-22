@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use ChanSort Mac, please cite this software and the original ChanSort project."
+title: "ChanSort Mac"
+type: software
+version: 0.4.0
+date-released: 2026-07-23
+authors:
+  - family-names: Meroth
+    given-names: Thomas
+url: "https://www.pcffm.de"
+license: GPL-3.0-only
+references:
+  - type: software
+    title: "ChanSort"
+    authors:
+      - family-names: Beham
+        given-names: Horst
+    url: "https://github.com/PredatH0r/ChanSort"
+

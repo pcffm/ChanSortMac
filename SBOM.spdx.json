@@ -1,0 +1,106 @@
+{
+  "spdxVersion": "SPDX-2.3",
+  "dataLicense": "CC0-1.0",
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "name": "ChanSort-Mac-0.4.0-SBOM",
+  "documentNamespace": "https://www.pcffm.de/spdx/chansort-mac-0.4.0-20260723",
+  "creationInfo": {
+    "created": "2026-07-23T00:00:00Z",
+    "creators": ["Person: Thomas Meroth", "Organization: Meroth IT-Service"]
+  },
+  "documentDescribes": ["SPDXRef-Package-ChanSortMac"],
+  "packages": [
+    {
+      "name": "ChanSort Mac",
+      "SPDXID": "SPDXRef-Package-ChanSortMac",
+      "versionInfo": "0.4.0",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "GPL-3.0-only",
+      "licenseDeclared": "GPL-3.0-only",
+      "copyrightText": "Copyright (C) 2026 Thomas Meroth, Meroth IT-Service; original components copyright Horst Beham and ChanSort contributors",
+      "homepage": "https://www.pcffm.de"
+    },
+    {
+      "name": "ChanSort loaders",
+      "SPDXID": "SPDXRef-Package-ChanSort",
+      "versionInfo": "2025-03-08",
+      "downloadLocation": "https://github.com/PredatH0r/ChanSort",
+      "filesAnalyzed": false,
+      "licenseConcluded": "GPL-3.0-only",
+      "licenseDeclared": "GPL-3.0-only",
+      "copyrightText": "Copyright Horst Beham and ChanSort contributors"
+    },
+    {
+      "name": "Microsoft.NETCore.App.Runtime.osx-arm64",
+      "SPDXID": "SPDXRef-Package-DotNetRuntime",
+      "versionInfo": "8.0.29",
+      "downloadLocation": "https://github.com/dotnet/runtime",
+      "filesAnalyzed": false,
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "copyrightText": "Copyright Microsoft, .NET Foundation and contributors"
+    },
+    {
+      "name": "Microsoft.Data.Sqlite",
+      "SPDXID": "SPDXRef-Package-MicrosoftDataSqlite",
+      "versionInfo": "8.0.13",
+      "downloadLocation": "https://www.nuget.org/packages/Microsoft.Data.Sqlite/8.0.13",
+      "filesAnalyzed": false,
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "copyrightText": "Copyright Microsoft Corporation"
+    },
+    {
+      "name": "Microsoft.Data.Sqlite.Core",
+      "SPDXID": "SPDXRef-Package-MicrosoftDataSqliteCore",
+      "versionInfo": "8.0.13",
+      "downloadLocation": "https://www.nuget.org/packages/Microsoft.Data.Sqlite.Core/8.0.13",
+      "filesAnalyzed": false,
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "copyrightText": "Copyright Microsoft Corporation"
+    },
+    {
+      "name": "Newtonsoft.Json",
+      "SPDXID": "SPDXRef-Package-NewtonsoftJson",
+      "versionInfo": "13.0.3",
+      "downloadLocation": "https://www.nuget.org/packages/Newtonsoft.Json/13.0.3",
+      "filesAnalyzed": false,
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "copyrightText": "Copyright James Newton-King 2008"
+    },
+    {
+      "name": "SQLitePCLRaw",
+      "SPDXID": "SPDXRef-Package-SQLitePCLRaw",
+      "versionInfo": "2.1.6",
+      "downloadLocation": "https://github.com/ericsink/SQLitePCL.raw",
+      "filesAnalyzed": false,
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "Apache-2.0",
+      "copyrightText": "Copyright 2014-2023 SourceGear, LLC"
+    },
+    {
+      "name": "System.Memory",
+      "SPDXID": "SPDXRef-Package-SystemMemory",
+      "versionInfo": "4.5.3",
+      "downloadLocation": "https://www.nuget.org/packages/System.Memory/4.5.3",
+      "filesAnalyzed": false,
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "copyrightText": "Copyright Microsoft Corporation and contributors"
+    }
+  ],
+  "relationships": [
+    {"spdxElementId": "SPDXRef-DOCUMENT", "relationshipType": "DESCRIBES", "relatedSpdxElement": "SPDXRef-Package-ChanSortMac"},
+    {"spdxElementId": "SPDXRef-Package-ChanSortMac", "relationshipType": "CONTAINS", "relatedSpdxElement": "SPDXRef-Package-ChanSort"},
+    {"spdxElementId": "SPDXRef-Package-ChanSortMac", "relationshipType": "DEPENDS_ON", "relatedSpdxElement": "SPDXRef-Package-DotNetRuntime"},
+    {"spdxElementId": "SPDXRef-Package-ChanSortMac", "relationshipType": "DEPENDS_ON", "relatedSpdxElement": "SPDXRef-Package-MicrosoftDataSqlite"},
+    {"spdxElementId": "SPDXRef-Package-ChanSortMac", "relationshipType": "DEPENDS_ON", "relatedSpdxElement": "SPDXRef-Package-MicrosoftDataSqliteCore"},
+    {"spdxElementId": "SPDXRef-Package-ChanSortMac", "relationshipType": "DEPENDS_ON", "relatedSpdxElement": "SPDXRef-Package-NewtonsoftJson"},
+    {"spdxElementId": "SPDXRef-Package-ChanSortMac", "relationshipType": "DEPENDS_ON", "relatedSpdxElement": "SPDXRef-Package-SQLitePCLRaw"},
+    {"spdxElementId": "SPDXRef-Package-ChanSortMac", "relationshipType": "DEPENDS_ON", "relatedSpdxElement": "SPDXRef-Package-SystemMemory"}
+  ]
+}
+

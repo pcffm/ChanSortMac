@@ -1,0 +1,30 @@
+<Project>
+  <!-- Copyright (C) 2026 Thomas Meroth, Meroth IT-Service; SPDX-License-Identifier: GPL-3.0-only -->
+  <PropertyGroup>
+    <!-- Keep each original loader in its own assembly. Several serializers use
+         their assembly name to find embedded resources and adjacent INI files. -->
+    <UpstreamDir>../Upstream/$(AssemblyName)</UpstreamDir>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>disable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <EnableDefaultCompileItems>false</EnableDefaultCompileItems>
+    <GenerateAssemblyInfo>true</GenerateAssemblyInfo>
+    <LangVersion>latest</LangVersion>
+    <Version>0.4.0</Version>
+    <Authors>Horst Beham; ChanSort contributors; macOS build integration by Thomas Meroth</Authors>
+    <Company>Meroth IT-Service</Company>
+    <Copyright>Original ChanSort components © Horst Beham and contributors; macOS integration © 2026 Thomas Meroth</Copyright>
+    <Description>GPLv3 ChanSort loader compiled for the ChanSort Mac backend.</Description>
+    <PackageLicenseExpression>GPL-3.0-only</PackageLicenseExpression>
+    <RepositoryUrl>https://github.com/PredatH0r/ChanSort</RepositoryUrl>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(UpstreamDir)/**/*.cs"
+             Exclude="$(UpstreamDir)/Properties/AssemblyInfo.cs;$(UpstreamDir)/Binary/TllFileSerializer.sql.cs;$(UpstreamDir)/DllClient.cs;$(ExtraCompileExclude)" />
+    <EmbeddedResource Include="$(UpstreamDir)/**/*.resx" />
+    <ProjectReference Include="ChanSort.Api.csproj" />
+    <PackageReference Include="Microsoft.Data.Sqlite" Version="8.0.13" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+  </ItemGroup>
+</Project>

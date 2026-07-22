@@ -1,0 +1,39 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <!-- Copyright (C) 2026 Thomas Meroth, Meroth IT-Service; SPDX-License-Identifier: GPL-3.0-only -->
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <RuntimeIdentifier>osx-arm64</RuntimeIdentifier>
+    <Nullable>disable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <EnableDefaultCompileItems>false</EnableDefaultCompileItems>
+    <GenerateAssemblyInfo>true</GenerateAssemblyInfo>
+    <RootNamespace>ChanSort.Backend</RootNamespace>
+    <AssemblyName>ChanSort.Backend</AssemblyName>
+    <LangVersion>latest</LangVersion>
+    <Version>0.4.0</Version>
+    <Authors>Thomas Meroth; Horst Beham; ChanSort contributors</Authors>
+    <Company>Meroth IT-Service</Company>
+    <Copyright>Copyright © 2026 Thomas Meroth; original ChanSort components © Horst Beham and contributors</Copyright>
+    <Description>Headless macOS integration backend for the GPLv3 ChanSort device loaders.</Description>
+    <PackageLicenseExpression>GPL-3.0-only</PackageLicenseExpression>
+    <RepositoryUrl>https://github.com/PredatH0r/ChanSort</RepositoryUrl>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="*.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="Projects/ChanSort.Api.csproj" />
+    <ProjectReference Include="Projects/ChanSort.Loader.*.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Upstream/ChanSort.Api/Lookup.csv" Link="Lookup.csv" CopyToOutputDirectory="PreserveNewest" />
+    <None Include="Upstream/ChanSort.Loader.*/*.ini" Link="%(Filename)%(Extension)" CopyToOutputDirectory="PreserveNewest" />
+    <None Include="Upstream/CHANSORT-README.md" Link="CHANSORT-README.md" CopyToOutputDirectory="PreserveNewest" />
+  </ItemGroup>
+
+</Project>

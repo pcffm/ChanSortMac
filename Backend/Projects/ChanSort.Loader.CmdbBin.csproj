@@ -1,0 +1,4 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup><UpstreamDir>../Upstream/ChanSort.Loader.CmdbBin</UpstreamDir><AssemblyName>ChanSort.Loader.CmdbBin</AssemblyName><RootNamespace>ChanSort.Loader.CmdbBin</RootNamespace></PropertyGroup>
+  <Import Project="Loader.Common.props" />
+</Project>
